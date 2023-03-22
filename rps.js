@@ -36,4 +36,6 @@ switch (player1Choice) {
     default:
         winner = "unknown";
 }
-console.log("".concat(winner, " wins!"));
+winner === "tie"
+    ? console.log("Tie! No one wins... :(")
+    : console.log("".concat(winner, " wins!"));
