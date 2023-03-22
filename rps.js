@@ -34,6 +34,7 @@ switch (player1Choice) {
                 : (winner = "tie");
         break;
     default:
+        console.log("Unexpected Player 1 Choice: ".concat(player1Choice));
         winner = "unknown";
 }
 winner === "tie"
